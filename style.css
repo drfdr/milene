@@ -49,15 +49,17 @@
      /*menu*/
 
 .menu {
-    margin-top:-10px;
-    margin-bottom:15px;
-    user-select: none;
+
+    margin-top:-15px;
+    margin-bottom:35px;
 }
 
+hr{
+    border-width:0.5px;
+}
 
-ul {
-    margin: 0;
-    padding: 0;
+ul { 
+
 }
 
 li {
@@ -66,13 +68,12 @@ li {
 }
 
 li a {
-    display:inline-block;
     color: black;
-    font-family:"Raleway",serif;
-    font-size: 20px;
-    text-align: center;
-    padding: 14px 16px;
+    font-family:"Raleway",sans-serif;
+    font-size: 145%;
     text-decoration: none;
+    padding-left:15px;
+    padding-right:15px;
    -webkit-transition: -webkit-transform 0.7s,opacity 0.6s;
     -webkit-backface-visibility: hidden;
     box-shadow: 0 0 1px rgba(255,255,255,0);
@@ -102,18 +103,18 @@ section.filmy {
 .imgcontainer img{
     height:300px;
     width:200px;
-    border-radius:15px;
+    border-radius:20px;
 }
 
 
 #filmy img{
-  transition: opacity 0.7s,transform 0.5s;
+  transition: opacity 0.7s,transform 3s;
     box-shadow: 0 0 1px rgba(255,255,255,0);
 }
 
 #filmy img:hover {
     opacity: 0.9;
-    transform: scale(1.007);
+    transform: scale(1.1);
 }
 
     
@@ -138,25 +139,26 @@ font-family:"Raleway",sans-serif;
 
 
 html{
-    
-  max-width: 1000px;
-    margin:auto;
+   max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none;
     
 }
 head{
-    
 }
 
 body {
+    
    text-align: center;
     -webkit-font-smoothing: antialiased;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
     margin:auto;
-    max-width: 700px;
-    user-select: none;
+    
+    
 }
 
-@media only screen and (max-width: 670px) {
+@media screen and (max-width: 500px) {
     .imgcontainer {
     display:inline-block;
     height: 90%;
@@ -168,9 +170,22 @@ body {
     width:100%;
     border-radius:15px;
 }
+    ul{
+        
+    }
+    li{
+
+    }
     li a {
-        padding: 5px;
+        margin-left:auto;
+        margin-right:auto;
+         padding-left: 3px;
+        padding-right: 3px;
+        font-size:15px;
+        text-align:center;
 }
-    
+    #logo img{
+        padding-top:25px;
+    }
     
 }
