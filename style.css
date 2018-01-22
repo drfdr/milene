@@ -152,15 +152,10 @@ section.filmy {
     
 }
 
-.logotype2{
-   width:200px;
-    height:100px;
-    margin:auto; 
+.logotype img[src="images/bnp.png"]{
+    margin-left:-100px;
 }
-.logotype2 img{
-    height:100%;
-    margin-left:-90px;
-}
+
 /*reklama*/
 
 
