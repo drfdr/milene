@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:bold|Tangerine|Raleway:300|Inconsolata");
 
       /*social*/
-
 .socialcontainer{
     position:absolute;
+    margin-left:40px;
 }
 .socialitem{
     display:inline-block;
     padding:5px;
+    
 }
 
 .socialitem img{
@@ -70,10 +71,10 @@ li {
 li a {
     color: black;
     font-family:"Raleway",sans-serif;
-    font-size: 145%;
+    font-size: 125%;
     text-decoration: none;
-    padding-left:15px;
-    padding-right:15px;
+    padding-left:8px;
+    padding-right:8px;
    -webkit-transition: -webkit-transform 0.7s,opacity 0.6s;
     -webkit-backface-visibility: hidden;
     box-shadow: 0 0 1px rgba(255,255,255,0);
@@ -104,6 +105,7 @@ section.filmy {
     height:300px;
     width:200px;
     border-radius:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -129,33 +131,112 @@ section.filmy {
 
   /*filmy*/
 
+/*reklama*/
+
+#reklamy{
+ margin-top:25px;    
+}
+
+.logotype{
+    width:200px;
+    height:100px;
+    margin:auto;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+
+.logotype img{
+    height:100%;
+    margin-left:-10px;
+    
+}
+
+.logotype2{
+   width:200px;
+    height:100px;
+    margin:auto; 
+}
+.logotype2 img{
+    height:100%;
+    margin-left:-90px;
+}
+/*reklama*/
+
+
 /*kontakt*/
-#kontakt{
-font-family:"Raleway",sans-serif;
-    display:block;
-    user-select:text;
+
+.kontakt{
+}
+
+.kontaktcontainer{
+    display:inline-block;
+}
+
+.kontaktdata{ 
+    margin-top:-15px;
+    padding-top:-10px;
+    width:300px;
+    border-style:dotted;
+    border-width: 0.5px;
+    border-radius:5%;
+}
+
+h1{
+    margin-top:0px;
+    font-family:"Tangerine",serif;
+    
+}
+h4{
+    font-family:"Raleway",serif;
+    margin-bottom: 15px;
 }
 /*kontakt*/
 
 
+
+#footeray{
+    font-family:"Raleway",serif;
+    font-size: 11px;
+    margin-bottom: 10px;
+    cursor:default;
+}
+
 html{
-   max-width: 700px;
+   max-width: 900px;
     margin-left: auto;
     margin-right: auto;
     user-select: none;
+    -webkit-user-select: none;
+    
+    background-image: url();
+    background-size: 100%;
+    background-repeat:round;
+    background-attachment:fixed;
+    
     
 }
 head{
 }
 
 body {
-    
    text-align: center;
     -webkit-font-smoothing: antialiased;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
     margin:auto;
     
+}
+footer{
     
+}
+
+iframe {
+    margin-top:25px;
+    border-radius: 20px;
+    transition:transform 1.2s;
+}
+iframe:hover{
+    transform: scale(1.03);
 }
 
 @media screen and (max-width: 500px) {
