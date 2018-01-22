@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:bold|Tangerine|Raleway:300|Inconsolata");
+
+      /*social*/
+
+.socialcontainer{
+    position:absolute;
+}
+.socialitem{
+    display:inline-block;
+    padding:5px;
+}
+
+.socialitem img{
+    height: 25px;
+    width:25px;
+    transition:transform 0.5s;
+     box-shadow: 0 0 1px rgba(255,255,255,0);
+    outline: 1px solid transparent;
+    border-radius:10px;
+    z-index: 1;
+}
+.socialitem img:hover{
+    transform: scale(1.15);
+}
+
+     /*social*/
+
+      /*logo*/
+
+#logo img{
+    max-height:350px;
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+    transition: transform 1.7s;
+    box-shadow: 0 0 1px rgba(255,255,255,0);
+    z-index: -1;
+    
+    border-radius:750px;
+    
+}
+
+#logo img:hover{
+    transform: scale(1.04);
+    
+}
+     /*logo*/
+
+     /*menu*/
+
+.menu {
+    margin-top:-10px;
+    margin-bottom:15px;
+    user-select: none;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+   display:inline-block;
+    
+}
+
+li a {
+    display:inline-block;
+    color: black;
+    font-family:"Raleway",serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   -webkit-transition: -webkit-transform 0.7s,opacity 0.6s;
+    -webkit-backface-visibility: hidden;
+    box-shadow: 0 0 1px rgba(255,255,255,0);
+    outline: 1px solid transparent;
+}
+
+li a:hover {
+     -webkit-transform: scale(1);
+    opacity: 0.1;
+}
+
+      /*menu*/
+
+    /*filmy*/
+section.filmy {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgcontainer {
+    display:inline-block;
+    height: 300px;
+    width: 200px;
+    margin-left:15px;
+    padding-bottom:15px;
+}
+.imgcontainer img{
+    height:300px;
+    width:200px;
+    border-radius:15px;
+}
+
+
+#filmy img{
+  transition: opacity 0.7s,transform 0.5s;
+    box-shadow: 0 0 1px rgba(255,255,255,0);
+}
+
+#filmy img:hover {
+    opacity: 0.9;
+    transform: scale(1.007);
+}
+
+    
+#filmtext {
+    font-family: 'Raleway',sans-serif;
+    text-align: center;
+    font-size: 27px;
+    margin-top: 5px;
+    margin-bottom: 55px;
+    display:none;
+}
+
+  /*filmy*/
+
+/*kontakt*/
+#kontakt{
+font-family:"Raleway",sans-serif;
+    display:block;
+    user-select:text;
+}
+/*kontakt*/
+
+
+html{
+    
+  max-width: 1000px;
+    margin:auto;
+    
+}
+head{
+    
+}
+
+body {
+   text-align: center;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    margin:auto;
+    max-width: 700px;
+    user-select: none;
+}
+
+@media only screen and (max-width: 670px) {
+    .imgcontainer {
+    display:inline-block;
+    height: 90%;
+    width: 90%;
+    margin-left:15px;
+}
+.imgcontainer img{
+    height:100%;
+    width:100%;
+    border-radius:15px;
+}
+    li a {
+        padding: 5px;
+}
+    
+    
+}
