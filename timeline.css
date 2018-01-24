@@ -1,0 +1,44 @@
+    html{
+        width:800px;
+        background: #222;
+	font-family: "Georgia", serif;
+	color: #fff;
+	font-size: 14px;
+        margin:auto;
+        user-select: none;
+    }
+    
+    a{
+       float:left;
+        	text-align: center;
+	color: #ccc;
+	text-shadow: #000 1px 1px 2px;
+        font-size: 30px;
+        
+    }
+    
+    #yearimgs{
+       
+        
+
+    }
+    #yearimgs img{
+        width: 200px;
+      height: 300px;
+                box-shadow: #000 4px 4px 3px;
+        border-radius:25px;
+    }
+    
+    #year{
+        margin:auto;
+    }
+    
+    #yearimgs:hover .dropdown{
+        display:inline-block;
+    }
+    #year:hover a{
+        color:deepskyblue;
+    }
+    .dropdown{
+        display:none;
+    }
