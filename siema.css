@@ -1,8 +1,10 @@
 #siemacontainer {
-  width: 300px;
-  height: 300px;
+	margin-top:35px;
+  width: 250px;
+  height: 330px;
   margin: 0 auto;
 	margin-bottom: 200px;
+	z-index: 9;
 }
 
 #siemacontainer a{
@@ -12,12 +14,31 @@
 }
 
 .siema img {
-     width: 100%;
-	height:100%;
-	border-radius:25px;
+	margin-top:25px;
+	margin-bottom:225px;
+	margin-left:25px;
+	margin-right: 150px;
+     width: 200px;
+	height:300px;
+	border-radius:0px;
+	transition:transform 1s;
+	box-shadow: 0px 0px 3px 0px black;
+	border-style: solid;
+	border-width: 0.5px;
+	z-index: -9;
+	border-radius:15px;
+	 -webkit-box-reflect: below 5px -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.8) 0%, transparent 50%, transparent 100%);
+	
+	
+}
+
+.siema img:active{
+	transform: scale(0.9);
+	
 }
 
 .siema {
+  margin-left:25px;
   margin: auto;
 }
 
