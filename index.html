@@ -1,12 +1,22 @@
 <!DOCTYPE html> 
+<html lang =pl>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+    <title>Milen</title> 
+     
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+</head>
 
-<head> 
-    <title>Milene</title> 
-    <script src="js.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="style.css"> 
-
-  <div class="socialcontainer">
+<body> 
+    
+    <div id="BodyX">
+        
+          <div id="socialcontainer" class="socialcontainer">
     <div class="socialitem">
         <a target="_blank" href="https://www.facebook.com/milena.jaroszek">
         <img src="images/face2.png">
@@ -14,59 +24,293 @@
     </div>
     <div class="socialitem">
         <a target="_blank" href="https://www.instagram.com/milenajaroszek/">
-        <img src="images/insta.png">
+        <img  src="images/insta.png">
         </a>
     </div>
     <div class="socialitem">
-        <a target="_blank" href="https://pl.pinterest.com/jarmilena"/>
+        <a target="_blank" href="https://pl.pinterest.com/jarmilena/">
         <img src="images/pinterest.png">
         </a>
     </div>
+	     <div class="socialitem">
+        <a target="_blank" href="http://www.imdb.com/name/nm7414887/?ref_=fn_al_nm_1">
+        <img src="https://vignette.wikia.nocookie.net/mixedmartialarts/images/c/c4/IMDb_logo.png/revision/latest?cb=20100313150139">
+        </a>
+    </div>
  </div> 
+     
     <div id="logo">
-        <img src="images/milene.png" draggable="false">
+        <img src="images/MilenLOGO11.png" draggable="false">
+    </div>
+     <div id="underlogo">
+       <h4>Costume Design</h4>
+     </div>
+	    <div id="switcher">
+      <label class="switch">
+      <input type="checkbox" id="myCheck">
+      <span class="slider round"></span>
+     </label>
     </div>
 
-</head> 
 <nav>
+	<div class="barcontainer">
+		 <div class="bar1"></div>
+		 <div class="bar2"></div>
+		 <div class="bar3"></div>
+	 </div>
+	 <div class="dropbar">
+	 
+	 </div>
     <div class="menu">
         <ul>
-            <li><a href="#home">Home<a/></li>
-            <li><a href="#filmy">Filmy<a/></li>
-            <li><a href="#seriale">Seriale<a/></li>
-            <li><a href="#kontakt">Kontakt<a/></li>
+            <li><a id="bfilmy">Films</a></li>
+            <li><a id="breklam">Commercials</a></li>
+		    <li><a id="bseriale" >TV</a></li>
+		    <li><a id="bteledyski">Music Videos</a></li>
+            <li><a id="kontakt">Contact</a></li> 
         </ul>
     </div>
 </nav>
-<body> 
-    <div id="filmy">
-        <div class="imgcontainer">
-            <a target="_blank" href="http://www.filmweb.pl/film/Karbala-2015-672274"><img src="images/karbala.jpg" /></a>
-            <p id="filmtext">Karbala</p> 
-        </div>
-        <div class="imgcontainer">
-            <a target="_blank" href="http://www.filmweb.pl/film/Miasto+44-2014-637019"> <img src="images/miasto44.jpg" /></a> 
-           <p id="filmtext">Miasto 44</p> 
-        </div>
-        <div class="imgcontainer">
-           <a target="_blank" href="http://www.filmweb.pl/film/Wo%C5%82y%C5%84-2016-724694"> <img src="images/wolyn.jpg" /></a>
-           <p id="filmtext">Wołyń</p>
-        </div>
-         <div class="imgcontainer">
-           <a target="_blank" href="http://www.filmweb.pl/film/Hiszpanka-2014-647735"> <img src="images/hiszpanka.jpg" /></a>
-           <p id="filmtext">Hiszpanka</p>
-        </div>
+	
+	 <div id=aboutme>
+	   <h1 id=h1profile>Contact</h1>
+		 <img id="profileimg" src="images/profile.jpg">
+		 
+		 		   
+
+ <div class="tooltip">
+	 <input type="text" value="Milena Jaroszek 
+ul.11 Listopada 22/8 
+03-436 Warszawa 
++48 697120641 
+milena.jaroszek@gmail.com" id="myInput">
+<img id="clipboard" onclick="myFunction()" onmouseout="outFunc()" src="https://cdn3.iconfinder.com/data/icons/logistics-delivery-set-1/512/8-512.png">
+  <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+  
+</div>
+	   <div class="kontaktdata">
+		  
+             <h4>Milena Jaroszek</h4>
+        <h4>ul.11 Listopada 22/8</h4>
+          <h4>03-436 Warszawa</h4>
+          <a href="tel:+48697120641"></a><h4 id="phonenumber"> +48 697120641</h4>
+          <a href="mailto:milena.jaroszek@gmail.com" target="_top"><h4 class = "mail">milena.jaroszek@gmail.com</h4></a>
+
+		   
+		   <a target="_blank" href="http://www.filmpolski.pl/fp/index.php?osoba=1168520">
+		   <img id="filmpolskimg" src="http://www.filmpolski.pl/fp/img1/logo-oryginal.png">
+		   </a>
+		  
+		 <div class="socialcontainer2">
+    <div class="socialitem">
+        <a target="_blank" href="https://www.facebook.com/milena.jaroszek">
+        <img src="images/face2.png">
+        </a>
     </div>
+    <div class="socialitem">
+        <a target="_blank" href="https://www.instagram.com/milenajaroszek/">
+        <img  src="images/insta.png">
+        </a>
+    </div>
+    <div class="socialitem">
+        <a target="_blank" href="https://pl.pinterest.com/jarmilena/">
+        <img src="images/pinterest.png">
+        </a>
+    </div>
+	     <div class="socialitem">
+        <a target="_blank" href="http://www.imdb.com/name/nm7414887/?ref_=fn_al_nm_1">
+        <img src="https://vignette.wikia.nocookie.net/mixedmartialarts/images/c/c4/IMDb_logo.png/revision/latest?cb=20100313150139">
+        </a>
+    </div>
+ </div> 
+	
+	</div>
+		
+</div>
+	
+
+ 
+    
+    
+
+	
+    <div id="filmy">
+        <h1>Films</h1>
+        
+
+        
+        
+<div class="cimgo">
+    
+    <img id="Legiony" class ="imgo" src="https://fwcdn.pl/nph/867323/2019/20886_1.7.jpg">
+    <img id="Kler" class="imgo" src="https://0.allegroimg.com/s1024/0c74ba/23d8bd49461ca50132b7e18addb0" >
+    <img id="Miss" class="imgo" src="https://storage.sbg.cloud.ovh.net/v1/AUTH_eeec4919b61b4afaaa8c90ce214950e7/cdn/projekty/201606/6d1fb4654cb58ee818f9f8a3aa928fe1.jpg" >
+    <img id="Polandja" class="imgo" src="https://fwcdn.pl/fpo/56/72/775672/7774016.3.jpg" >
+    <img id="Faustus" class="imgo" src="http://film.org.pl/wp-content/uploads/2014/08/film.org.pl_film.org_.pl_faustus-1.jpg" >
+    <img id="BedzieLepiej" class="imgo" src="images/bedzie%20lepiej.png" >
+    <img id="Duszno" class="imgo" src="images/duszno.jpg" >
+    <img id="Wolyn" class="imgo" src="images/wolyn.jpg" >
+    <img id="Karbala" class="imgo" src="https://fwcdn.pl/fpo/22/74/672274/7695948.3.jpg">
+    <img id="Miasto" class="imgo" src="images/miasto44.jpg">
+    <img id="Hiszpanka" class="imgo" src="images/hiszpanka.jpg">
+</div>
+
+        
+</div>
+
+	
+	<div id="seriale">
+		<h1>Television Shows</h1>
+		<div class="cimgo">
+		<img id="Dezerter" class="imgo" src="https://fwcdn.pl/fpo/03/02/850302/7923616.3.jpg">
+		<img id="SamaSlodycz" class="imgo" src="https://fwcdn.pl/fpo/36/69/703669/7596362.3.jpg">
+		<img id="DzwonyWojny" class="imgo" src="https://fwcdn.pl/fpo/02/90/710290/7653372.3.jpg">
+	</div>
+</div>
+	
+	
+	<div id="teledyski">
+		<h1>Music Videos</h1>
+		<iframe class="yt" src="https://www.youtube.com/embed/Vx5YD2ZaMVg?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding></iframe>
+		
+		<iframe class="yt" src="https://www.youtube.com/embed/XiRlm8wCPOM?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding></iframe>
+		
+	</div>
+	
+	
+
+    <div id="reklam">
+       
+        <h1>Commecrials</h1>
+        
+        <div class="logotype" id="InPost">
+            
+             <img src="https://focusbydgoszcz.pl/assets/webp-express/webp-images/doc-root/assets/uploads/2019/09/inpost.png.webp">
+         </div>
+         <iframe class="yt" src="https://www.youtube.com/embed/hs449W2eTU8?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding>
+        </iframe> 
+        <iframe class="yt" src="https://www.youtube.com/embed/XXas6Zfag4w?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding>
+        </iframe> 
+        
+        
+        
+        <div class="logotype" id="mBank">
+            
+             <img src="https://www.wolapark.pl/-/media/images/b2c/poland/shared/shop-logo/pl_logo_mbank.ashx?h=433&iar=0&mw=650&w=650&hash=197566468B4A671AB22E19FC648B26F4">
+         </div>
+         <iframe class="yt" src="https://www.youtube.com/embed/q7OmhhfidE8?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding>
+        </iframe> 
+        <iframe class="yt" src="https://www.youtube.com/embed/8U5_EFE5kZg?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding>
+        </iframe> 
+        <iframe class="yt" src="https://www.youtube.com/embed/xyYeU8JvkVw?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding>
+        </iframe> 
+         <iframe class="yt" src="https://www.youtube.com/embed/Qc0_ALQUPlk?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding>
+        </iframe> 
+        <iframe class="yt" src="https://www.youtube.com/embed/VGQAfqXsQxA?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding>
+        </iframe> 
+        
+        
+        <div class="logotype" id="Coccolino">
+            
+         <img src="https://www.coccolino.pl/sk-eu/content/dam/brands/coccolino/pl/pl/COCCOLINO-LOGO.png.rendition.767.767.png">
+         </div>
+        <iframe class="vimeo" src="https://player.vimeo.com/video/490876931?title=1&byline=1&portrait=1" allowfullscreen modestbranding></iframe>
+        
+        
+        <div class="logotype" id="Fundacja">
+            
+         <img src="https://yt3.ggpht.com/ytc/AAUvwnhbVXocZNZMWN5txQDx6DIG0oF1qlnxrDvhwGAZwQ=s88-c-k-c0x00ffffff-no-rj"> </div>
+         <iframe class="yt" src=" https://www.youtube.com/embed/reBzTX6UO5E?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding> </iframe> 
+         
+         
+        <div class="logotype" id="Fabryka">
+            
+         <img src="https://static.wirtualnemedia.pl/media/top/fabrykakomunikacjispolecznej-logo.png">
+         </div>
+           <iframe class="yt" src=" https://www.youtube.com/embed/D4HRcckQZto?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding> </iframe> 
+         <iframe class="yt" src=" https://www.youtube.com/embed/jy5gB11olKU?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding> </iframe> 
+         <iframe class="yt" src=" https://www.youtube.com/embed/n2TEeijZFF8?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding> </iframe> 
+        
+        
+        
+        <div class="logotype" id="Herbapol">
+            
+         <img src="https://www.herbapol.com.pl/wp-content/uploads/2014/06/logo.png">
+         </div>
+          <iframe class="yt" src=" https://www.youtube.com/embed/nJBzVHnvpQo?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding> </iframe> 
+         <iframe class="yt" src=" https://www.youtube.com/embed/dMF_O4crQps?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding> </iframe> 
+         <iframe class="yt" src=" https://www.youtube.com/embed/H2R62QPqSIM?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding> </iframe> 
+         
+
+
+      <div class="logotype" id="Tyskie">
+         <img src="https://www.wodnypark.tychy.pl/files/partnerzy/tyskie-znaki-Artboard_m.png">
+         </div>
+         <iframe class="yt" src=" https://www.youtube.com/embed/3xGLsI_0gaQ?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding> </iframe> 
+         <iframe class="yt" src=" https://www.youtube.com/embed/vuKqBmqd8fo?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding> </iframe> 
+         <iframe class="yt" src=" https://www.youtube.com/embed/_VyLj5usx5s?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding> </iframe> 
+         <iframe class="yt" src=" https://www.youtube.com/embed/rkQTK6EDdYs?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding> </iframe> 
+         <iframe class="yt" src=" https://www.youtube.com/embed/jPqmxS_nykc?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding> </iframe> 
+         <iframe class="yt" src=" https://www.youtube.com/embed/UUyToa3mFfQ?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding> </iframe> 
+          <iframe class="yt" src=" https://www.youtube.com/embed/UQPnc3e8Ysk?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding> </iframe> 
+          <iframe class="yt" src="https://www.youtube.com/embed/HmOlsApBvvM?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding></iframe>
+       <iframe class="vimeo" src="https://player.vimeo.com/video/212890012?title=1&byline=1&portrait=1" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	    <iframe class="vimeo" src="https://player.vimeo.com/video/388983811?title=1&byline=1&portrait=1" allowfullscreen modestbranding></iframe>
+
+        
+       
+        <div class="logotype" id="BP">
+            
+         <img src="https://i2.wp.com/www.thedaily-ng.com/wp-content/uploads/2016/05/bp_logo.gif?zoom=2.625&resize=410%2C205&ssl=1">
+         </div>
+        <iframe class="vimeo" src="https://player.vimeo.com/video/283946294?title=1&byline=1&portrait=1"  allowfullscreen modestbranding></iframe>
+        
+      
+        
+         <div class="logotype" id="BNP">
+             <img src="images/bnp.png">
+         </div>
+        <iframe class="yt" src="https://www.youtube.com/embed/nti91npBZpA?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding>
+        </iframe>
+	    <iframe  class="yt" src="https://www.youtube.com/embed/o1TRx3uO18Q?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding></iframe>
+	    
+	    
+       
+	    <div class="logotype" id="Kozel">
+		   <img src="http://horapa.pl/wp-content/uploads/2017/05/logo.png">
+	    </div>
+	    <iframe class="yt" src="https://www.youtube.com/embed/ILl8P0CI7EI?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding></iframe>
+	    <iframe class="vimeo" src="https://player.vimeo.com/video/229837802?title=1&byline=1&portrait=1" allowfullscreen modestbranding></iframe>
+	    
+	    
+	    
+	    <div class="logotype" id="Spolem">
+	        <img src="https://www.wspspolem.com.pl/wspassets/themes/wsp-theme/img/wsp-spolem-kielce-logo.png"></div>
+        <iframe class="yt" src="https://www.youtube.com/embed/5gEkSjyfToo?rel=0&amp;controls=2&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding></iframe>
+        
+        
+        
+        <div class="logotype" id="Orange">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Orange_logo.svg/2000px-Orange_logo.svg.png"></div>
+        <iframe class="yt"  src="https://www.youtube.com/embed/uXFZ4NRP_jc?rel=0&amp;controls=1&amp;showinfo=1" frameborder="0" allowfullscreen modestbranding></iframe>
+	  
+	    
+         
+	    <div class="logotype" id="AXA">
+		   <img src="http://logok.org/wp-content/uploads/2014/09/AXA_logo-880x660.png">
+	    </div>
+	 <iframe class="vimeo" src="https://player.vimeo.com/video/253397097?title=1&byline=1&portrait=1"  allowfullscreen modestbranding></iframe>
+    </div>
+
+
+    <script src="index.js"></script>
+</div>
 </body>
     <footer>
-    <div id="kontakt">
-      <div class="kontaktdata">;
-          <h4>Milena Jaroszek</h4>
-          <h4>ul.Wąchocka 4A/18</h4>
-          <h4>03-934 Warszawa</h4>
-          <h4> +48 793278635</h4>
-          <h4>milena.jaroszek@gmail.com</h4>
-          
-      </div>
-    </div>
+ 
+        <hr>
+        <div id="footeray">
+           Milene &copy; 2020
+        </div>
     </footer>
+</html>
